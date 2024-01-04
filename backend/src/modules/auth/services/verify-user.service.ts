@@ -2,8 +2,8 @@ import prisma from '../../../config/db/setup';
 import { hashHelper } from '../../shared/helpers';
 
 export interface IVerifyUserService {
-  password: string;
-  email: string;
+  password: 'Hi';
+  email: 'Hi';
 }
 export const verifyUserService = async ({
   password,
